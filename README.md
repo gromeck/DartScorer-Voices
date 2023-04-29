@@ -1,7 +1,7 @@
 # DartScorer-Voices :dart:
 Caller Voices for the DartScorer application https://github.com/gromeck/DartScorer/
 
-# Note on using and publishing voiced speec from speechgen.io
+# Note on using and publishing voiced speech from speechgen.io
 
 The voices included in this package were generated with the speechgen.io
 account id9536 (gromeck@gromeck.de) on 28th March 2023.
@@ -28,15 +28,14 @@ must not violate the copyright for the text itself."
 - set the output to WAV
 
 ```
-	Language      Voice   Pitch   Speed    Directory
-	-------------------------------------------------------------
-	English (GB)  Bob     -4      1.1      DE-speechgen.io-Ralf
-	English (GB)  Libby   -4      1.1      DE-speechgen.io-Libby
-
-	German        Claus   -4      1.1      DE-speechgen.io-Claus
-	German        Ralf    -4      1.1      DE-speechgen.io-Ralf
-	German        Katja   -4      1.1      DE-speechgen.io-Katja
-	German        Louisa  -4      1.1      DE-speechgen.io-Louisa
+  Language      Voice   Pitch   Speed    Directory
+  -------------------------------------------------------------
+  English (GB)  Bob     -4      1.1      DE-speechgen.io-Ralf
+  English (GB)  Libby   -4      1.1      DE-speechgen.io-Libby
+  German        Claus   -4      1.1      DE-speechgen.io-Claus
+  German        Ralf    -4      1.1      DE-speechgen.io-Ralf
+  German        Katja   -4      1.1      DE-speechgen.io-Katja
+  German        Louisa  -4      1.1      DE-speechgen.io-Louisa
 ```
 
 - copy the text from below into the text box
@@ -47,33 +46,35 @@ must not violate the copyright for the text itself."
 - from the menu select Analyze > Silence Finder
 - set
 ```
-		silence level: -50 db
-		minimum duration: 0.200 s
-		label placement: 0.100 s
+  silence level: -50 db
+  minimum duration: 0.200 s
+  label placement: 0.100 s
 ```
 - and run the tool
 - from the menu File > Export > Export Multiple ...
 - set
-		Encoding: Signed 16-bit PCM
-		Split files based on: Labels
-		Name files: Numbering after File name Prefix
+```
+  Encoding: Signed 16-bit PCM
+  Split files based on: Labels
+  Name files: Numbering after File name Prefix
+```
 - check if files from 0 to 190 were generated, if not
   adjust the silence filter, and redo the steps above
 - exit audacity
 - correct the names of the exported files if necessary
 
 ```
-	mv 181.wav out.wav
-	mv 182.wav bull.wav
-	mv 183.wav bullseye.wav
-	mv 184.wav double.wav
-	mv 185.wav tripple.wav
-	mv 186.wav no-score.wav
-	mv 187.wav game-on.wav
-	mv 188.wav won-leg.wav
-	mv 189.wav won-set.wav
-	mv 190.wav won-game.wav
-	mv 191.wav busted.wav
+  mv 181.wav out.wav
+  mv 182.wav bull.wav
+  mv 183.wav bullseye.wav
+  mv 184.wav double.wav
+  mv 185.wav tripple.wav
+  mv 186.wav no-score.wav
+  mv 187.wav game-on.wav
+  mv 188.wav won-leg.wav
+  mv 189.wav won-set.wav
+  mv 190.wav won-game.wav
+  mv 191.wav busted.wav
 ```
 
 
