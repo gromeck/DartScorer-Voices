@@ -1,5 +1,5 @@
-# DartScorer-Voices :dart:
-Caller Voices for the DartScorer application https://github.com/gromeck/DartScorer/
+# DartScorer-Voices :dart: :loudspeaker:
+Caller Voices for the DartScorer :dart: application https://github.com/gromeck/DartScorer/
 
 # Note on using and publishing voiced speech from speechgen.io
 
