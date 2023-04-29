@@ -5,7 +5,7 @@ Caller Voices for the DartScorer :dart: application https://github.com/gromeck/D
 
 The voices included in this package were generated with the speechgen.io
 account id9536 (gromeck@gromeck.de) on 28th March 2023.
-According to the privacy policy of speecgen.io the resulting voices are
+According to the privacy policy of speechgen.io the resulting voices are
 published with this package.
 
 ```
