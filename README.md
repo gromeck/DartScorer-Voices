@@ -1,6 +1,15 @@
 # DartScorer-Voices :dart: :loudspeaker:
 Caller Voices for the DartScorer :dart: application https://github.com/gromeck/DartScorer/
 
+This package currently brings you some high quality english and german
+caller voices. These were generated with speechgen.io.
+
+# How to install?
+
+Clone this repository and run the script ```install.sh``` as ```root```.
+This will install these voices so that DartScorer :dart: will
+recognize these upone the next start.
+
 # Note on using and publishing voiced speech from speechgen.io
 
 The voices included in this package were generated with the speechgen.io
