@@ -21,14 +21,4 @@
 #
 #
 
-PACKAGE=dartscorer
-VOICEDIR=/usr/local/share/$PACKAGE/voice/
-
-mkdir -p $VOICEDIR
-
-for VOICE in *; do
-	if test -f $VOICE/game-on.wav ; then
-		echo "Installing voice $VOICE in $VOICEDIR"
-		cp --recursive --dereference $VOICE $VOICEDIR
-	fi
-done
+SUBDIRS= voices
