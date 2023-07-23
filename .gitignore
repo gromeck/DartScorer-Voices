@@ -1,31 +1,5 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-*.gz
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# packages
+*.deb
 
 # Executables
 *.exe
@@ -80,18 +54,8 @@ m4/lt~obsolete.m4
 # Generated Makefile
 Makefile
 
-# additional stuff for gettext
-po/*.pot
-po/*.gmo
-po/remove-potcdate.sed
-po/stamp-po
-po/POTFILES
-
 #
 #	project specific
 #
-DartScorer
 .*.sw[a-z]
 Trash
-*GUI.cpp
-*GUI.h
