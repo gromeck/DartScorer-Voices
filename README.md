@@ -6,7 +6,8 @@ caller voices. These were generated with speechgen.io.
 
 # How to install?
 
-Clone this repository and run the script ```install.sh``` as ```root```.
+Clone this repository and first run the script ```install.sh```, than
+run ```make install``` as ```root```.
 This will install these voices so that DartScorer :dart: will
 recognize these upone the next start.
 
