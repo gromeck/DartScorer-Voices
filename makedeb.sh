@@ -107,7 +107,7 @@ Build-Depends: debhelper (>= 9)
 
 Package: ${PACKAGE}
 Architecture: any
-Depends: \${shlibs:Depends}, \${misc:Depends}
+Depends: \${shlibs:Depends}, \${misc:Depends}, dartscorer
 Description: Voice package for DartScorer
  DartScorer offers multiplayer X01, simple score input,
  audio caller support, checkout hints, ...
